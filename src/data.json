@@ -1,0 +1,220 @@
+[
+    {
+        "name": {
+            "common": "Germany",
+            "official": "Federal Republic of Germany",
+            "nativeName": {
+                "deu": {
+                    "official": "Bundesrepublik Deutschland",
+                    "common": "Deutschland"
+                }
+            }
+        },
+        "tld": [
+            ".de"
+        ],
+        "cca2": "DE",
+        "ccn3": "276",
+        "cca3": "DEU",
+        "cioc": "GER",
+        "independent": true,
+        "status": "officially-assigned",
+        "unMember": true,
+        "currencies": {
+            "EUR": {
+                "name": "Euro",
+                "symbol": "â‚¬"
+            }
+        },
+        "idd": {
+            "root": "+4",
+            "suffixes": [
+                "9"
+            ]
+        },
+        "capital": [
+            "Berlin"
+        ],
+        "altSpellings": [
+            "DE",
+            "Federal Republic of Germany",
+            "Bundesrepublik Deutschland"
+        ],
+        "region": "Europe",
+        "subregion": "Western Europe",
+        "languages": {
+            "deu": "German"
+        },
+        "translations": {
+            "ara": {
+                "official": "Ø¬Ù…Ù‡ÙˆØ±ÙŠØ© Ø£Ù„Ù…Ø§Ù†ÙŠØ§ Ø§Ù„Ø§ØªØ­Ø§Ø¯ÙŠØ©",
+                "common": "Ø£Ù„Ù…Ø§Ù†ÙŠØ§"
+            },
+            "bre": {
+                "official": "Republik Kevreadel Alamagn",
+                "common": "Alamagn"
+            },
+            "ces": {
+                "official": "SpolkovÃ¡ republika NÄ›mecko",
+                "common": "NÄ›mecko"
+            },
+            "cym": {
+                "official": "Federal Republic of Germany",
+                "common": "Germany"
+            },
+            "deu": {
+                "official": "Bundesrepublik Deutschland",
+                "common": "Deutschland"
+            },
+            "est": {
+                "official": "Saksamaa Liitvabariik",
+                "common": "Saksamaa"
+            },
+            "fin": {
+                "official": "Saksan liittotasavalta",
+                "common": "Saksa"
+            },
+            "fra": {
+                "official": "RÃ©publique fÃ©dÃ©rale d'Allemagne",
+                "common": "Allemagne"
+            },
+            "hrv": {
+                "official": "NjemaÄka Federativna Republika",
+                "common": "NjemaÄka"
+            },
+            "hun": {
+                "official": "NÃ©met SzÃ¶vetsÃ©gi KÃ¶ztÃ¡rsasÃ¡g",
+                "common": "NÃ©metorszÃ¡g"
+            },
+            "ita": {
+                "official": "Repubblica federale di Germania",
+                "common": "Germania"
+            },
+            "jpn": {
+                "official": "ãƒ‰ã‚¤ãƒ„é€£é‚¦å…±å’Œå›½",
+                "common": "ãƒ‰ã‚¤ãƒ„"
+            },
+            "kor": {
+                "official": "ë…ì¼ ì—°ë°© ê³µí™”êµ­",
+                "common": "ë…ì¼"
+            },
+            "nld": {
+                "official": "Bondsrepubliek Duitsland",
+                "common": "Duitsland"
+            },
+            "per": {
+                "official": "Ø¬Ù…Ù‡ÙˆØ±ÛŒ ÙØ¯Ø±Ø§Ù„ Ø¢Ù„Ù…Ø§Ù†",
+                "common": "Ø¢Ù„Ù…Ø§Ù†"
+            },
+            "pol": {
+                "official": "Republika Federalna Niemiec",
+                "common": "Niemcy"
+            },
+            "por": {
+                "official": "RepÃºblica Federal da Alemanha",
+                "common": "Alemanha"
+            },
+            "rus": {
+                "official": "Ð¤ÐµÐ´ÐµÑ€Ð°Ñ‚Ð¸Ð²Ð½Ð°Ñ Ð ÐµÑÐ¿ÑƒÐ±Ð»Ð¸ÐºÐ° Ð“ÐµÑ€Ð¼Ð°Ð½Ð¸Ñ",
+                "common": "Ð“ÐµÑ€Ð¼Ð°Ð½Ð¸Ñ"
+            },
+            "slk": {
+                "official": "NemeckÃ¡ spolkovÃ¡ republika",
+                "common": "Nemecko"
+            },
+            "spa": {
+                "official": "RepÃºblica Federal de Alemania",
+                "common": "Alemania"
+            },
+            "srp": {
+                "official": "Ð¡Ð°Ð²ÐµÐ·Ð½Ð° Ð ÐµÐ¿ÑƒÐ±Ð»Ð¸ÐºÐ° ÐÐµÐ¼Ð°Ñ‡ÐºÐ°",
+                "common": "ÐÐµÐ¼Ð°Ñ‡ÐºÐ°"
+            },
+            "swe": {
+                "official": "FÃ¶rbundsrepubliken Tyskland",
+                "common": "Tyskland"
+            },
+            "tur": {
+                "official": "Almanya Federal Cumhuriyeti",
+                "common": "Almanya"
+            },
+            "urd": {
+                "official": "ÙˆÙØ§Ù‚ÛŒ Ø¬Ù…ÛÙˆØ±ÛŒÛ Ø¬Ø±Ù…Ù†ÛŒ",
+                "common": "Ø¬Ø±Ù…Ù†ÛŒ"
+            },
+            "zho": {
+                "official": "å¾·æ„å¿—è”é‚¦å…±å’Œå›½",
+                "common": "å¾·å›½"
+            }
+        },
+        "latlng": [
+            51.0,
+            9.0
+        ],
+        "landlocked": false,
+        "borders": [
+            "AUT",
+            "BEL",
+            "CZE",
+            "DNK",
+            "FRA",
+            "LUX",
+            "NLD",
+            "POL",
+            "CHE"
+        ],
+        "area": 357114.0,
+        "demonyms": {
+            "eng": {
+                "f": "German",
+                "m": "German"
+            },
+            "fra": {
+                "f": "Allemande",
+                "m": "Allemand"
+            }
+        },
+        "flag": "\uD83C\uDDE9\uD83C\uDDEA",
+        "maps": {
+            "googleMaps": "https://goo.gl/maps/mD9FBMq1nvXUBrkv6",
+            "openStreetMaps": "https://www.openstreetmap.org/relation/51477"
+        },
+        "population": 83240525,
+        "gini": {
+            "2016": 31.9
+        },
+        "fifa": "GER",
+        "car": {
+            "signs": [
+                "DY"
+            ],
+            "side": "right"
+        },
+        "timezones": [
+            "UTC+01:00"
+        ],
+        "continents": [
+            "Europe"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/de.png",
+            "svg": "https://flagcdn.com/de.svg",
+            "alt": "The flag of Germany is composed of three equal horizontal bands of black, red and gold."
+        },
+        "coatOfArms": {
+            "png": "https://mainfacts.com/media/images/coats_of_arms/de.png",
+            "svg": "https://mainfacts.com/media/images/coats_of_arms/de.svg"
+        },
+        "startOfWeek": "monday",
+        "capitalInfo": {
+            "latlng": [
+                52.52,
+                13.4
+            ]
+        },
+        "postalCode": {
+            "format": "#####",
+            "regex": "^(\\d{5})$"
+        }
+    }
+]

@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css?family=Sofia');
+body{
+  background-color: hsl(61, 100%, 87%);
+  font-family: Arial, Helvetica, sans-serif;
+}
+body h1{
+  font-size: 1.5em;
+}
+.card{
+  border: 1px solid hsl(0, 0%, 72%);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.1);
+  padding: 20px;
+  margin: 5px;
+  text-align: center;
+  max-width: 250px;
+  display: inline-block;
+}
+.card .card-image{
+  max-width: 60%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.card .card-title{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  margin: 0;
+  color: hsl(0, 0%, 27%);
+} 
+.card .card-text{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: small;
+  color: rgb(163, 163, 163);
+}
+.buttondelete{
+background-color: hsl(200, 100%, 50%);
+color: aliceblue;
+font-family:Arial, Helvetica, sans-serif;
+font-size: x-large;
+padding: 10px 20px;
+border-radius: 5%;
+border:none;
+min-width: 250px;
+height: 150px;
+cursor: pointer;
+}
+.student{
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 2em;
+padding: 10px;
+border: 1px solid hsl(0, 0%, 58%);
+margin-bottom:10px;
+max-width: 350px;
+}
+.student p{
+  margin: 0;
+}
+.list-category{
+  font-size: 2.5em;
+  font-weight: bold;
+  color: hsl(0, 0%, 23%);
+  margin-bottom: 10px;
+  text-align: center;
+  border: 3px solid;
+  border-radius: 5px;
+  /* max-width: 250px; */
+  background-color: aqua;
+}
+.list-items li{
+  font-size: 2em;
+  list-style: none;
+  color:hsl(0, 0%, 25%);
+  text-align: center;
+  margin: 0;
+  /* max-width: 250px; */
+}
+.list-items li:hover{
+  color:hsl(0, 0%, 45%);
+  cursor: pointer;
+}
+.counter-container{
+  border: 2px solid;
+  border-radius: 10px;
+  margin: 0px;
+  padding: 10px;
+  text-align: center;
+}
+.counter-container p{
+  font-size: 3em;
+  text-align: center;
+  margin:0px
+}
+
+.counter-container button{
+  font-size: 1.5em;
+  text-align: center;
+  color: white;
+  /*ausserhalb vom button abstand*/
+  margin-top:15px;
+  margin-right: 5px;
+  /*text abstand innerhalb vom button*/
+  padding: 10px 10px 10px;
+  background-color: hsl(207, 100%, 42%);
+  font-family: "Sofia", sans-serif;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.counter-container button:hover{
+ background-color:  hsl(207, 100%, 55%);
+}
+.change-container{
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 5px;
+  border: 1px groove;
+  border-color: hsl(0, 0%, 91%);
+  box-shadow: 10px 15px 15px  hsl(0, 0%, 93%);
+  max-width: 500px;
+  margin-left: 20px;
+  padding: 30px;
+}
+.radio-lable{
+  padding: 0px;
+}
+.change-container input{
+  color: hsl(0, 0%, 0%);
+  background-color: hsl(0, 0%, 93%);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom: 1px solid;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  height: 25px;
+  width: 200px;
+  padding: 10px;
+  font-size: 20px;
+  font-family:Arial, Helvetica, sans-serif;
+  margin-top: 5px;
+}
+.change-container input:hover{
+  background-color: hsl(0, 0%, 88%);;
+}
+.change-container label{
+  padding-left: 15px;
+  color: #808080;
+}
+.color-picker-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.color-display{
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid hsl(0, 0%, 80%);
+  border-radius: 25px;
+  margin-bottom: 25px;
+  transition: 0.25ms ease;
+}
+.color-display p{
+  color: hsl(0, 0%, 20%);
+  font-size: 2rem;
+  text-align: center;
+}
+.color-picker-container label{
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+input[type=color]{
+  width: 75px;
+  height: 50px;
+  padding: 5px;
+  border-radius: 10px;
+  border: 3px solid hsl(0, 0%, 80%);
+}
+.border-component{
+  border: 1px solid;
+  min-height: 200px;
+  min-width: 170px;
+  max-width: 200px;
+  padding: 10px;
+  margin: 10px;
+}
+.del-button:hover {
+  filter: invert(14%) sepia(75%) saturate(7395%) hue-rotate(360deg) brightness(109%) contrast(117%);
+  cursor: grabbing;
+}
+.moveup-button:hover {
+  filter: invert(35%) sepia(65%) saturate(3112%) hue-rotate(101deg) brightness(101%) contrast(104%);
+  cursor: n-resize;
+}
+.movedown-button:hover {
+  filter: invert(35%) sepia(65%) saturate(3112%) hue-rotate(101deg) brightness(101%) contrast(104%);
+  cursor: s-resize;
+}
+.to-do-list{
+  border: 1px solid;
+  /*min-height: 200px;
+  min-width: 170px;
+  max-width: 300px;
+  padding: 10px;
+  margin: 10px;*/
+}
+.to-do-list h1{
+  color: hsl(0, 0%, 70%);
+}
+.to-do-list input{
+  color: hsl(0, 0%, 0%);
+  background-color: hsl(0, 0%, 93%);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom: 1px solid;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  height: 25px;
+  width: 150px;
+  padding: 10px;
+  font-size: 20px;
+  font-family:Arial, Helvetica, sans-serif;
+  margin-top: 5px;
+}
+.to-do-list input:hover{
+  background-color: hsl(0, 0%, 88%);;
+}
+.to-do-list input:focus-visible{
+  
+  border-bottom: 2px solid orange;
+  border-radius: 3px;
+  outline: none;
+}
+.to-do-list button{
+background-color: orange;
+width: 130px;
+height: 35px;
+margin-top: 3px;
+border-radius: 3px;
+border: none;
+font-size: large;
+color: white;
+font-weight: bold;
+flex-wrap: wrap;
+  justify-content: center;
+  opacity: 0.8;
+  text-align: center;
+}
+.to-do-list button:hover{
+  background-color: orange;
+  opacity: 1.2;
+}
+.to-do-list li{
+  font-size: 1.5em;
+  padding: 7px;
+  margin-bottom: 10px;
+  background-color: hsl(0, 0%, 85%);
+  border: 1px solid rgb(154, 154, 154);
+  display: flex;
+  align-items: center;
+
+}
+.text{
+  flex: 1;
+}
+.clock{
+  font-size: 6em;
+  font-weight: bold;
+  font-family: monospace;
+  text-align: center;
+  text-shadow: 3px 3px 5px hsla(0, 0%, 54%, 0.755);
+}
+.clock-container{
+  backdrop-filter: blur(10px);
+  background-image: url(assets/image.png);
+  background-repeat: no-repeat;
+  height: 300px;
+}
+.box{
+  border: 3px solid;
+  margin-bottom: 20px;
+  padding: 25px;
+}
+.stopwatch-container{
+  border: 2px solid;
+  border-radius: 30px;
+  padding: 10px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.stopwatch-container h1{
+  color:#808080;
+}
+.clockdisplay{
+  font-size: 5rem;
+  font-family: monospace;
+  font-weight: bold;
+  color: hsl(0, 0%, 30%);
+  text-shadow: 2px 2px 2px hsla(0, 0%, 0%, 0.75);
+}
+
+.controls button{
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin: 5px;
+  min-width: 125px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+  transition: background-color 0.5s ease;
+}
+.start-button{
+  background-color: hsl(115, 100%, 40%);
+}
+.start-button:hover{
+  background-color: hsl(115, 100%, 35%);
+}
+.stop-button{
+  background-color: hsl(10, 90%, 50%);
+}
+.stop-button:hover{
+  background-color: hsl(10, 90%, 45%);
+}
+.reset-button{
+  background-color: hsl(205, 90%, 60%);
+}
+.reset-button:hover{
+  background-color: hsl(205, 90%, 55%);
+}
+.lap-button{
+  background-color: hsl(45, 100%, 50%);
+}
+.lap-button:hover{
+  background-color: hsl(45, 100%, 25%);
+}
