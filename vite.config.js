@@ -5,10 +5,10 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   base: "/my-react-app/", //github pages
-  server: {
-    port: 3000,
-    strictPort: true,
-    host: true,
-    origin: "http://0.0.0.0:3000"
-  }
+  // server: {
+  //   port: 3000,
+  //   strictPort: true,
+  //   host: true,
+  //   origin: "http://0.0.0.0:3000"
+  // }
 })
